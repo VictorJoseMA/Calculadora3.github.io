@@ -31,7 +31,8 @@ function Toronja() {
 
 function Manbdarina() {
     let num1 = parseFloat(document.getElementById('lock').value);
-    document.getElementById('result').value = Math.pow(num1, 2);
+    let num2 =parseFloat(document.getElementById("block").value)
+    document.getElementById('result').value = Math.pow(num1, num2);
 }
 
 function Pitaya() {
